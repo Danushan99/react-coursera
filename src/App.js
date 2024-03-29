@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App( props) {
+import Header from "./components/Header";
+function App() {
   return (
-    <div className="App">
-      <h1>{props.title}</h1>
+    <div>
+      <Header name = "dhanu" color="green"/>
+      {/* <h1>{props.title}</h1> */}
     </div>
   );
 }
